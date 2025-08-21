@@ -5,3 +5,6 @@ ignore/
 
 # Ignore agus.txt text file
 agus.txt
+
+# Ignore makefileViejo 
+makefileViejo
