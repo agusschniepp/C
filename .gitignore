@@ -2,3 +2,6 @@
 
 # Ignore the 'ignore' folder
 ignore/
+
+# Ignore agus.txt text file
+agus.txt
