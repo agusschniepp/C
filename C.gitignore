@@ -1,2 +1,4 @@
-#Ignore agus.txt
-*.txt
+# C.gitignore
+
+# Ignore the 'ignore' folder
+ignore/
