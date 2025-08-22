@@ -1,13 +1,13 @@
 COMPILADOR= gcc
 FLAGS= -Wall -Wextra -pedantic
-TARGET= sizeTipoDeDatosVistos
+TARGET= sizeTipoDeDatosVistosNuevo
 
 all: $(TARGET)
 
-$(TARGET): sizeTipoDeDatosVistos.o
+$(TARGET): sizeTipoDeDatosVistosNuevo.o
 	$(COMPILADOR) $(FLAGS) $^ -o $@
 
-sizeTipoDeDatosVistos.o: sizeTipoDeDatosVistos.c
+sizeTipoDeDatosVistosNuevo.o: sizeTipoDeDatosVistosNuevo.c
 	$(COMPILADOR) $(FLAGS) -c $< -o $@
 
 clean:
