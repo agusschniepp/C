@@ -5,9 +5,11 @@ int main () {
     int a = 5;
     //printf("%d\n", a % 2);
 
-    while(a--){
+    /*while(a--){
         printf("%d\n",a);
     };
+    */
 
+    
     return 0;
 }
