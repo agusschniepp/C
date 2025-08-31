@@ -7,7 +7,7 @@ all: $(TARGET)
 $(TARGET): $(TARGET).o
 	$(COMPILADOR) $(FLAGS) $^ -o $@
 
-$(TARGET).o: $(TARGET).c
+%.o: %.c
 	$(COMPILADOR) $(FLAGS) -c $< -o $@
 
 clean:
